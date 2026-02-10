@@ -93,7 +93,7 @@ fi
 
 # Create .env file in runner's diectory.
 if [ "\\$RUNNER_ENV" != "" ]; then
-  echo \\$RUNNER_ENV > \\$ACTIONS_RUNNER_DIRECTORY/.env
+  echo \\$RUNNER_ENV >> \\$ACTIONS_RUNNER_DIRECTORY/.env
 fi
 
 # Configure and run the runner.
